@@ -4,10 +4,10 @@ import (
 	_ "embed"
 )
 
-//go:embed hello.txt
+//go:embed static/hello.txt
 var m1 string
 
-//go:embed goodbye.txt
+//go:embed static/goodbye.txt
 var m2 string
 
 func main() {
